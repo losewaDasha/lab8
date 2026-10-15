@@ -10,9 +10,9 @@ int main() {
 	double znamenatel = 1.0; 
 	int i;              
 
-	printf("Введите значение a: ");
+	printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ a: ");
 	scanf("%d", &a);
-	printf("Введите значение n: ");
+	printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ n: ");
 	scanf("%d", &n);
 
 	for (i = 0; i <= n; i++) {
@@ -20,11 +20,10 @@ int main() {
 		znamenatel = znamenatel * (a + i);
 		s = s + 1.0 / znamenatel;
 
-		printf("Вычисление %d: добавлено %.6f, текущая сумма: %.6f\n", i + 1, 1.0 / znamenatel, s);
+		printf("Р’С‹С‡РёСЃР»РµРЅРёРµ %d: РґРѕР±Р°РІР»РµРЅРѕ %.6f, С‚РµРєСѓС‰Р°СЏ СЃСѓРјРјР°: %.6f\n", i + 1, 1.0 / znamenatel, s);
 	}
 
-	printf("\nРезультат: сумма ряда S = %.6f\n", s);
+	printf("\nР РµР·СѓР»СЊС‚Р°С‚: СЃСѓРјРјР° СЂСЏРґР° S = %.6f\n", s);
 
 	return 0;
 }
-
