@@ -4,7 +4,7 @@
 #include <math.h>
 
 int main() {
-	
+	setlocale(LC_ALL, "Russian");
 	int a, n;
 	double s = 0.0;      
 	double znamenatel = 1.0; 
